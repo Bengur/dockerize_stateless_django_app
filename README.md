@@ -32,13 +32,13 @@ In your project settings.py file change database settings to :
 
     pip freeze 
 
-In your project directory create requirements.txt file
+In your project directory create requirements.txt file.
 Copy and paste to requirements.txt file the output of pip freeze 
 
 
 ## Step 3. Build your custom docker image
      
-Copy and paste Dockerfile to your project directory
+Copy and paste Dockerfile to your project directory.
 Cd to your project directory and run
     
     docker build -t your_docker_image_name . 
@@ -47,7 +47,7 @@ Cd to your project directory and run
     
 ## Step 4. Deploying with docker-compose 
 
-Copy and paste docker-compose.yml file anywhere 
+Copy and paste docker-compose.yml file anywhere. 
 In the same directory where docker-compose.yml is create .env file 
 
 In .env file set your database settings, e.g.:
@@ -61,7 +61,7 @@ In .env file set your database settings, e.g.:
 
 Modify docker-compose file as you need. Be sure that db/db_user/db_password settings in both files are the same 
 
-Cd to the "compose" directory and run
+Cd to the directory where docker-compose.yml file is and run
 
     docker-compose up 
 
