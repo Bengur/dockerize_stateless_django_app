@@ -70,4 +70,4 @@ or for detached mode  run
     docker-compose up -d --build  
 
 
-####At this point, your Django app should be running at port 8000 on your Docker host. Go to http://localhost:8000 to check it
+At this point, your Django app should be running at port 8000 on your Docker host. Go to http://localhost:8000 to check it
