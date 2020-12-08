@@ -9,10 +9,7 @@ In your project settings.py file add the following:
     import os
     from pathlib import Path
     from dotenv import load_dotenv
-    
-    load_dotenv(verbose=True)
-    env_path = Path('.') / '.env'
-    load_dotenv(dotenv_path=env_path) 
+    load_dotenv(dotenv_path=Path('.') / '.env') 
     
 In your project settings.py file change database settings to :
 
