@@ -21,8 +21,8 @@ In your project settings.py file change database settings to :
             'PASSWORD': os.getenv("DB_PASSWORD"),
             'HOST': os.getenv("DB_HOST"),
             'PORT': os.getenv("DB_PORT")
+            }
         }
-    }
 
 
 ## Step 2. Handle requirements : run 
